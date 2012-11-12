@@ -6,9 +6,7 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "FlipsideViewController.h"
-
-@interface MainViewController : UIViewController <FlipsideViewControllerDelegate>
+@interface MainViewController
 @property (weak, nonatomic) IBOutlet UILabel *display;
 @property (weak, nonatomic) IBOutlet UILabel *commandHistory;
 
